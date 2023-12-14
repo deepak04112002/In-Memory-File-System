@@ -6,11 +6,9 @@ This is a simple console-based file system simulation implemented in C++. It pro
 1. [Introduction](#introduction)
 2. [Usage](#usage)
 3. [Commands](#commands)
-4. [Example Usage](#example-usage)
-5. [Dependencies](#dependencies)
-6. [Build and Run](#build-and-run)
-7. [Contributing](#contributing)
-8. [License](#license)
+4. [Improvements](#improvements)
+5. [Instructions to Run](#instructions-to-run)
+6. [Additional Information](#additional-information)
 
 ## Introduction
 
@@ -36,20 +34,20 @@ The program provides a command-line interface allowing users to interact with th
 9. **rm \<path\>**: Remove a file or directory.
 10. **exit**: Exit the file system simulation.
 
-## Example Usage
+## Improvements
 
-```bash
-$ mkdir Documents
-$ cd Documents
-$ touch notes.txt
-$ echo "Important information" > notes.txt
-$ ls
-notes.txt
-$ cat notes.txt
-Important information
-$ cd ..
-$ ls
-Documents/
-$ rm Documents
-$ ls
-$ exit
+1. **Command-Line Interface:**
+   - The program provides a simple and intuitive command-line interface, making it user-friendly.
+
+2. **Error Handling:**
+   - The program includes error handling to notify users about various issues, such as directory or file not found, failed operations, etc.
+
+3. **Modularity:**
+   - The code is modular, with separate classes for files, directories, and the file system. This makes it easy to understand and maintain.
+
+## Instructions to Run
+
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository_url>
+   cd filesystem-simulation
